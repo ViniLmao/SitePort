@@ -9,7 +9,7 @@
             --primary-color: #2c5035;
             --secondary-color: #aedb34;
             --light-color: #ecf0f1;
-            --dark-color: #1c271d;
+            --dark-color: #0e110e;
             --text-color: #333;
             --text-light: #777;
         }
@@ -216,7 +216,7 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            text-align: center;
+            text-align: justify;
             transition: transform 0.3s;
         }
 
