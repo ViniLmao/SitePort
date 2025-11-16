@@ -76,38 +76,4 @@
                     btnLoading.style.display = 'none';
                     submitBtn.disabled = false;
                 }
-            });
-        }
-        
-            // Esta é uma simulação - substitua por sua lógica real de envio
-            
-            // Opção 1: Usar EmailJS (gratuito até 200 emails/mês)
-            // Você precisaria se registrar em https://www.emailjs.com/
-
-
-        // Exemplo de integração com EmailJS (descomente e configure)
-        
-        // Inicializar EmailJS (substitua com seu User ID)
-        (function() {
-            emailjs.init("J7TWY-3NVxClMOuDH");
-        })();
-        
-        // Função de envio com EmailJS
-        async function sendEmailWithEmailJS(name, email, subject, message) {
-            const templateParams = {
-                from_name: name,
-                from_email: email,
-                subject: subject,
-                message: message,
-                to_email: 'vinicaruccio98@gmail.com' // Seu email
-            };
-            
-            try {
-                await emailjs.send('service_a69rsiq', 'template_xe2ozij', templateParams);
-                return true;
-            } catch (error) {
-                console.error('Erro EmailJS:', error);
-                throw new Error('Falha no envio do email');
-            }
-        }
-        
+            })}
